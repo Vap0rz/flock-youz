@@ -14,7 +14,7 @@
 // ============================================================================
 // CONFIGURATION
 // ============================================================================
-// Added flock detection, Axion Body Cam/Taser and Meta BT detection - Cau5tic
+// Added flock detection, Axion Body Cam/Taser 
 // Added Meta, Ray Ban and Snapchat spy glasses to BT detection ;- Cau5tic
 // Hardware Configuration
 #define BUZZER_PIN 3  // GPIO3 (D2) - PWM capable pin on Xiao ESP32 S3
@@ -71,7 +71,7 @@ static const char* mac_prefixes[] = {
     "00:25:DF"
 
     // Meta Spy Glasses - Cau5tic
-    "00:01:AB", "00:058E", "00:0D:53", "00:03:C2"
+    "00:01:AB", "00:05:8E", "00:0D:53", "00:03:C2"
 };
 
 // Device name patterns for BLE advertisement detection
