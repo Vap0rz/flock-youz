@@ -119,6 +119,8 @@ Detection patterns are derived from actual field data including:
 - Penguin surveillance device patterns
 - Pigvision system identifiers
 - Extended battery and external antenna configurations
+- Axion Cameras and Tasers
+- Meta, RayBan and Snapchat spy glasses
 
 **Datasets from deflock.me are included in the `datasets/` folder of this repository**, providing comprehensive device signatures and detection patterns for enhanced accuracy.
 
@@ -208,7 +210,7 @@ Detection patterns are derived from actual field data including:
 - `Pigvision*` - Pigvision BLE devices
 
 ## Limitations
-
+- Many
 ### Technical Constraints
 - **WiFi Range**: Limited to 2.4GHz spectrum
 - **Detection Range**: Approximately 50-100 meters depending on environment
