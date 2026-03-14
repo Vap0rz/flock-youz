@@ -14,7 +14,8 @@
 // ============================================================================
 // CONFIGURATION
 // ============================================================================
-
+// Added flock detection, Axion Body Cam/Taser and Meta BT detection - Cau5tic
+// Added Meta, Ray Ban and Snapchat spy glasses to BT detection ;- Cau5tic
 // Hardware Configuration
 #define BUZZER_PIN 3  // GPIO3 (D2) - PWM capable pin on Xiao ESP32 S3
 
@@ -65,6 +66,12 @@ static const char* mac_prefixes[] = {
     "f9:d9:c0", "f1:32:f9", "f6:a0:76", "e4:1c:9e", "e7:f2:43",
     "e2:71:33", "da:91:a9", "e1:0e:15", "c8:ae:87", "f4:ed:b2",
     "d8:bf:b5", "ee:8f:3c", "d7:2b:21", "ea:5a:98"
+
+    //Axion BT tazo0oor Body Cam- Cau5tic
+    "00:25:DF"
+
+    // Meta Spy Glasses - Cau5tic
+    "00:01:AB", "00:058E", "00:0D:53", "00:03:C2"
 };
 
 // Device name patterns for BLE advertisement detection
@@ -72,7 +79,10 @@ static const char* device_name_patterns[] = {
     "FS Ext Battery",  // Flock Safety Extended Battery
     "Penguin",         // Penguin surveillance devices
     "Flock",           // Standard Flock Safety devices
-    "Pigvision"        // Pigvision surveillance systems
+    "Pigvision",       // Pigvision surveillance systems
+    "Axion",           // Axion - Cau5tic
+    "Meta"             // Meta Snapchat Ray Ban
+
 };
 
 // ============================================================================
