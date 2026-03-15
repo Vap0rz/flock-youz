@@ -81,7 +81,11 @@ static const char* device_name_patterns[] = {
     "Flock",           // Standard Flock Safety devices
     "Pigvision",       // Pigvision surveillance systems
     "Axion",           // Axion - Cau5tic
-    "Meta"             // Meta Snapchat Ray Ban
+    "Meta",             // Meta Snapchat Ray Ban
+    "Snap",
+    "META",
+    "SnapChat",
+    "SNAPCHAT"
 
 };
 
